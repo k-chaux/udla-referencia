@@ -1,0 +1,16 @@
+<main class="contenedor">
+    <form action="/agregarcomentario" method="POST">
+
+        <label for="nombre"><strong> Titulo:</strong></label>
+        <input type="text" value="" id="nombre" name="titulo" placeholder="Nombre Proyecto">
+
+        <h3>Descripción del Puesto</h3>
+        <div class="campo descripcion">
+            <label><strong> Descripción </strong></label>
+            <input type="hidden" id="x" name="descripcion">
+            <trix-editor input="x"></trix-editor>
+        </div>
+        <br>
+        <input type="submit" value="Enviar" class="btn btn-primary">
+    </form>
+</main>

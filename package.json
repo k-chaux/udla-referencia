@@ -1,0 +1,24 @@
+{
+  "name": "udla-chaira-referencia-de-opcion-de-grado",
+  "version": "1.0.0",
+  "description": "Modulo chaira para la referencia de la opcion de grado con node mvc y orm",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Yina marcela, kevin chaux",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^3.1.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.7.7",
+    "pug": "^2.0.4",
+    "session": "^0.1.0",
+    "shortid": "^2.2.15",
+    "slug": "^1.1.0"
+  }
+}
